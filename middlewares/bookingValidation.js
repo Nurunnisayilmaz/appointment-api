@@ -5,7 +5,7 @@ const schema = Joi.object().keys({
     name: Joi.string().required(),
     email: Joi.string().required(),
     phone: Joi.string().required(),
-    date:Joi.date().required(),
+    date:Joi.string().required(),
     additionalMessage:Joi.string().required()
 }).unknown(true);
 
