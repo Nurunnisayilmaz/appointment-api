@@ -1,11 +1,10 @@
 const express = require('express');
 const router = express.Router();
 
-
-const {booking,getAllPhotos,getAllComments} = require('../controllers/controller');
+const {booking,getAllSliderDatas,getAllReviews} = require('../controllers/controller');
 
 router.post('/booking', booking);
-router.get('/photos', getAllPhotos);
-router.get('/comments', getAllComments);
+router.get('/photos', getAllSliderDatas);
+router.get('/reviews', getAllReviews);
 
 module.exports = router;
