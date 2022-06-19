@@ -13,8 +13,12 @@ import Contact from "./components/contact/contact";
 function App() {
   return (
       <div className="App">
-          <div className="header"></div>
-          <div className="home"></div>
+          <div className="header">
+              <Header/>
+          </div>
+          <div className="home">
+              <Home/>
+          </div>
           <div className="about"></div>
           <div className="timeline"></div>
           <div className="testimonials"></div>

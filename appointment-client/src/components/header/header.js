@@ -2,11 +2,43 @@ import React from 'react';
 import "./header.css";
 
 
-class header extends React.Component{
+class header extends React.Component {
     render() {
-        return(
+        return (
 
             <div className="header">
+
+                <nav className="navbar bg-light shadow-lg">
+
+                    <div className="nav-item">
+                            <a className="nav-link " href="#hero">Home</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="nav-link" href="#about">About</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="nav-link" href="#timeline">Timeline</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="navbar-brand " href="index.html">Medic</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="nav-link" href="#reviews">Testimonials</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="nav-link" href="#booking">Booking</a>
+                    </div>
+
+                    <div className="nav-item">
+                            <a className="nav-link " href="#contact">Contact</a>
+                    </div>
+
+                </nav>
 
             </div>
 
