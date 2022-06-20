@@ -4,13 +4,15 @@
     right: 0;
     left: 0;
     z-index: 1030;
+    font-family: 'Open Sans', sans-serif;
 }
 .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .bg-light {
     background-color: #f8f9fa;
@@ -20,12 +22,30 @@
 }
 
 .nav-item{
-    text-decoration: none;
-    padding: 20px 20px;
-    font-weight: 700;
-    font-size: large;
+    font-size: 20px;
+    padding: 25px;
+    font-weight:600;
+    line-height: 1.5;
 }
 
 .nav-link{
+    text-decoration: none;
+    color: #717275;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: #717275;
 
+}
+
+.medic{
+    color: #247cff;
+    font-size: 30px;
+}
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
 }

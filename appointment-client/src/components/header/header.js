@@ -23,7 +23,11 @@ class header extends React.Component {
                     </div>
 
                     <div className="nav-item">
-                            <a className="navbar-brand " href="index.html">Medic</a>
+                            <div className="main">
+                              <a className="navbar-brand medic " href="index.html">Medic Care</a>
+                              <a className="navbar-brand specialist" href="index.html">Health Speacialiste</a>
+
+                            </div>
                     </div>
 
                     <div className="nav-item">
