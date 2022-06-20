@@ -25,7 +25,9 @@ function Home() {
 
   return (
     <div className="home">
-      <Carousel sliderItems={images}/>
+      <div className="carousel-div">
+        <Carousel sliderItems={images}/>
+      </div>
       <div className="backCard">
         <div className="back-header"><h1>Better <span style={{color: "#247cff"}}>health</span></h1></div>
         <p className="back-p">Medic Care is a Bootstrap 5 Template provided by TemplateMo website. Credits go to FreePik and RawPixel for images used in this template.</p>

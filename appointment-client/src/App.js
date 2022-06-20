@@ -3,7 +3,7 @@ import {BrowserRouter, Routes, Route, Link, Outlet} from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/header";
 import Home from "./components/home/Home";
-import About from "./components/about/about";
+import About from "./components/about/About";
 import Timeline from "./components/timeline/timeline";
 import Testimonials from "./components/testimonials/testimonials";
 import Booking from "./components/booking/booking";
@@ -19,7 +19,9 @@ function App() {
           <div className="Home">
               <Home/>
           </div>
-          <div className="about"></div>
+          <div className="About">
+            <About/>
+          </div>
           <div className="timeline"></div>
           <div className="testimonials"></div>
           <div className="booking"></div>

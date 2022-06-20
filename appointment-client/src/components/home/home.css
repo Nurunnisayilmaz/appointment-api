@@ -2,12 +2,12 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 3%;
-    height: 580px;
 }
+
 .backCard{
     position: relative;
     float: right;
-    top: -430px;
+    top: -410px;
     width: 50%;
     background: white;
 }

@@ -1,0 +1,29 @@
+.about{
+    padding: 5%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.doctor-header{
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.doctor-p{
+    font-size: 30px;
+    color: #717275;
+}
+.doctorImages{
+
+}
+.batch{
+    border-radius: 100%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+.twelwe{
+    color: #247cff;
+    font-size: 75px;
+}
